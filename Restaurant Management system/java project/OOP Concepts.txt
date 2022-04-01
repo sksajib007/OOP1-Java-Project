@@ -1,0 +1,34 @@
+Interfaces-
+>IEmployee
+>IFoodItem
+>IRestaurant
+>IQuantity
+
+Classes-
+>Employee
+>FoodCourt
+>Appetizers
+>MainDish
+>FoodItem
+>Restaurant
+
+>Main (This is main class)
+
+File ReadWrite
+>QuantityDetails
+
+Association
+>FoodCourt has many Restaurants
+
+Other OOP Concepts
+>Exception Handling(IOException, Null Pointer exception, InputMismatch Exception)
+>Abstraction (FoodItem is an Abstract class, showInfo is an Abstract method)
+
+Encapsulation
+> All the classes are encapsulation
+
+Inheritance
+>Main Dish and Appitizers inherit properties from their parent class FoodItem
+
+Polymorphism
+>Method Overriding(showInfo is parent class>FoodItem and we use this reference is child class>Main Dish and Appitizers)
